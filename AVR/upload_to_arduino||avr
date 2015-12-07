@@ -1,1 +1,8 @@
-sudo avrdude -p m328p -c arduino -P /dev/ttyACM1 -U flash:w:Blink.cpp.hex:a
+cd /path/to/directory
+avrdude -p <device> -c <programmer> -U flash:w:file.hex:a
+
+ex:
+avrdude -p m328p -c usbasp -Uflash:w:file.hex:a
+avrdude -p m328p -c arduino -P /dev/ttyACM1 -U flash:w:file.hex:a
+
+execute with sudo if not working

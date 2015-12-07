@@ -1,0 +1,11 @@
+sudo apt-get install vlc git gitg
+#sudo add-apt-repository ppa:webupd8team/java
+#sudo apt-get update
+#sudo apt-get install oracle-java7-installer
+#sudo apt-get install oracle-java7-set-default
+sudo apt-get install gparted 
+sudo apt-get install gnuradio
+sudo apt-get install arduino
+sudo apt-get install build-essential 
+sudo apt-get install transmission
+

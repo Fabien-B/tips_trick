@@ -1,0 +1,7 @@
+sudo ifconfig wlan0 192.168.10.1 netmask 255.255.255.0 up
+sudo nano /etc/NetworkManager/NetworkManager.conf
+#ajouter cette ligne:
+unmanaged-devices=mac:ff:ff:ff:ff:ff:ff
+#ou l'adresse mac est celle de la carte wifi
+sudo hostapd /etc/hostapd/hostapd.conf
+#supprimer la ligne et redemarrer le service (ou l'ordi) pour revenir à la conf normale.

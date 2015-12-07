@@ -1,0 +1,2 @@
+sudo rtcwake -m disk -s 60
+

@@ -1,0 +1,6 @@
+cd /path/to/directory
+avrdude -pm328p -cusbasp -Uflash:w:file.hex:a
+
+avrdude -p <device> -c <programmer> -U flash:w:file.hex:a
+
+execute with sudo if not working

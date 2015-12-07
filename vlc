@@ -1,0 +1,3 @@
+launch video in fullscreen, 1127 seconds later :
+vlc --start-time 1127  --fullscreen /path/to/my/video.mkv
+

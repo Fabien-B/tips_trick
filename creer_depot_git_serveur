@@ -1,0 +1,4 @@
+git init
+git config --bool core.bare true
+
+ensuite, cloner ce dépot: git clone login@host:/location/to/the/depot
